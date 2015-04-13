@@ -1,0 +1,181 @@
+/*
+CV for Annette Lunnon
+
+*/
+
+/* sytling-=------------------- */
+body {
+font-family: 'Tangerine', cursive;
+font-family: 'Karla', sans-serif;
+background: url(images/stardust/stardust.png)
+}
+
+/*-- Webkit for Font Awesome icons on nav buttons --*/
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0'); /* IE9 Compat Modes */
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), /* Modern Browsers */
+       url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');/* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+}
+/* -- Header and Navigation buttons--*/
+header {
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+	color: #28D5F7;
+	font-weight: bold;
+	text-align: center;
+	width: 100%; 
+	margin: 0 auto; 
+	opacity: .8;
+	}
+
+.navigation-container {
+	margin: 0 auto;
+	max-width: 960px;
+	margin-top: 15px;
+	padding-left: 2.2em;
+}	
+
+.navigation-button {
+	display: block;
+	width: 200px;
+	height: 40px;
+	border-radius: 2px;
+	background: #28D5F7;
+	float: left;	
+	margin: 15px;
+	font-size: 29px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.navigation-button span {
+	vertical-align: middle;
+	display: inline-block;
+	font-color: black;
+	font-size: 12px;
+}	
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.arrow-up {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin-left: 48%;
+	margin-right: 48%;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	max-height: 60px;
+}
+
+/* -- Section One: Profile--*/
+
+.title {
+	font-family:'Tangerine', cursive;
+	text-align: center;
+	color: #28D5F7;
+	font-size: 48px;
+	text-shadow: 4px 4px 4px black;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0 auto;
+}
+.profile {
+	text-align: justify;
+	max-width: 98%;
+	color: #28D5F7;
+	font-size: 20px;
+}
+
+.skills {
+	list-style: none;
+	text-align: center;
+	color: #28D5F7;
+	font-size: 20px;
+
+}
+
+.custom-bullet-point {
+	list-style: none;
+	list-style-position: inside;
+	text-indent: -1.5em;
+}
+
+footer {
+	font-size: x-large;
+	color: #28D5F7;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+}
+
+.paragraph {
+	margin-bottom: 30px;
+}
+
+/*-- Media queries --*/
+
+@media screen and (min-width: 960px) {
+
+ .left-content{
+	width: 50%;
+	float: left;
+	color: #28D5F7;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
+
+.right-content {
+	width: 45%;
+	float: left;
+	color: #28D5F7;
+	}
+}
+
+/*-- clearfix--*/
+
+.clearfix:after {
+content:".";
+display:block;
+height: 0;
+clear:both;
+visibility:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
